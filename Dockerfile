@@ -1,5 +1,5 @@
 # proxy_apache
-FROM openshift/httpd:2.4
+FROM registry.access.redhat.com/rhscl/httpd-24-rhel7:2.4
 
 # TODO: Set labels used in OpenShift to describe the builder image
 LABEL io.k8s.description="Platform for building Web base application deployed in Apache as front end.  The Apache also forward the request at the backend via Apache proxy module" \
